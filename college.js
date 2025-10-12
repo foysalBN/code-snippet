@@ -44,3 +44,13 @@ let absent = []
 let getRoll = tr => parseInt(tr.querySelector('td[align="left"]').innerText) ,getInputEl = tr => tr.querySelector('input[type="text"]') ,setBgColor = (tr, color) =>tr.querySelectorAll('*').forEach(td=> td.style.backgroundColor = color); document.querySelectorAll('table[width="100%"] tr tr').forEach(tr=>{
     return absent.includes(getRoll(tr)) ?(getInputEl(tr).value=pf_max, setBgColor(tr,'#00fd0838')):getInputEl(tr).value= Math.floor(Math.random() * (pf_max - pf_min )) + pf_min 
 })
+
+// ======== Absent Roll entry ======== 
+let absent=[]
+document.querySelectorAll(`input[name="roll_left[]"]`).forEach((inp, i)=>{
+    if(absent[i]){
+    console.table([i, absent[i]])
+    inp.value=absent[i]
+    }
+})
+// ======== End ======== 
