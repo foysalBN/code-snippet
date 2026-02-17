@@ -13,7 +13,8 @@
 
     const DEFAULT_TIMER_MIN = 5;
     const WARNING_TIME_SEC = 60;
-    const DEFAULT_REDIRECT = "https://zenquotes.io/";
+    // const DEFAULT_REDIRECT = "https://zenquotes.io/";
+    const DEFAULT_REDIRECT = "https://www.youtube.com/watch?v=VOOoUq7CVtk";
     const FEED_SELECTORS = ["ytd-rich-grid-renderer","#pagelet_home_stream","[role=feed]"];
 
     // --- STORAGE ---
