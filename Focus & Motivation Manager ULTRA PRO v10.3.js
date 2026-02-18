@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Focus & Motivation Manager ULTRA PRO v10.3
 // @namespace    http://tampermonkey.net/
-// @version      2026-02-19
+// @version      2026-02-19_10.1
 // @description  Focus timer with URL allowlist + safe redirect + auto 2-min pause with countdown
 // @match        *://*/*
 // @grant        none
